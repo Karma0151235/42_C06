@@ -35,7 +35,7 @@ int	main(int ac, char **av)
 	int	j;
 
 	j = 1;
-	while (ac >= j)
+	while (ac > j)
 	{
 		ft_putstr(av[j]);
 		j++;
